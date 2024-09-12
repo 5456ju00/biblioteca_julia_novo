@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastrar Livro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastrar Livro</h1>
+	<form id="cadastro_livro">
+		
+		<input type="text" value="Nome:" onfocus="if (this.value == 'Nome:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nome:';}">
+
+		<input type="text" value="Gênero:" onfocus="if (this.value == 'Gênero:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Gênero:';}">
+
+		<input type="text" value="Ano de Publicação:" onfocus="if (this.value == 'Ano de Publicação:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Ano de Publicação:';}">
+
+		<input type="text" value="Isbn:" onfocus="if (this.value == 'Isbn:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Isbn:';}">
+
+		<input type="text" value="Estante:" onfocus="if (this.value == 'Estante:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Estante:';}">
+
+		<input type="text" value="Autor:" onfocus="if (this.value == 'Autor:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Autor:';}">
+
+	<div class="btn-class">
+		<button type="button" id="submit-btn-salvar>onclick=salvar()">Salvar</button>
+		<button type="button" id="submit-btn-salvar>onclick=consultar()">Consultar</button>
+		<button type="button" id="submit-btn-salvar>onclick=alterar()">Alterar</button>
+		<button type="button" id="submit-btn-salvar>onclick=apagar()">Apagar</button>
+	</div>
+
+	</form>	
+	<script src="script.js"></script>
+</body>
+</html>

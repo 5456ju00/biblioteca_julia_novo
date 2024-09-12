@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Emprestimo</h1>
+	<form id="cadastro_emprestimo">
+		
+		<input type="text" value="Cgm:" onfocus="if (this.value == 'Cgm:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Cgm:';}">
+
+		<input type="text" value="Isbn:" onfocus="if (this.value == 'Isbn:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Isbn:';}">
+
+		<input type="text" value="Data de Emprestimo:" onfocus="if (this.value == 'Data de Emprestimo:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Data de Emprestimo:';}">
+
+		<input type="text" value="Data de Devolução:" onfocus="if (this.value == 'Data de Devolução:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Data de Devolução:';}">
+
+		<input type="text" value="Telefone:" onfocus="if (this.value == 'Telefone:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Telefone:';}">
+
+		<input type="text" value="Data de Nascimento:" onfocus="if (this.value == 'Data de Nascimento:') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Data de Nascimento:';}">
+
+	<div class="btn-class">
+		<button type="button" id="submit-btn-salvar>onclick=salvar()">Salvar</button>
+		<button type="button" id="submit-btn-salvar>onclick=consultar()">Consultar</button>
+		<button type="button" id="submit-btn-salvar>onclick=alterar()">Alterar</button>
+		<button type="button" id="submit-btn-salvar>onclick=apagar()">Apagar</button>
+	</div>
+
+	</form>	
+	<script src="script.js"></script>
+</body>
+</html>
